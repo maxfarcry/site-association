@@ -1,0 +1,23 @@
+.navbar-brand {
+  color: white!important;
+}
+
+.bg-light {
+  background-color: #130f40!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgb(207, 141, 55);
+}
+
+.disabled {
+  color: #bdc3c7!important;
+}
+
+svg {
+  color: white!important;
+}
