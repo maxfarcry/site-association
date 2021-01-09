@@ -21,3 +21,14 @@
 svg {
   color: white!important;
 }
+
+h1 {  
+  background-color: #004d80;
+  color: white;
+}
+
+.content {
+  box-shadow: 0 0 2em black!important;
+  width: 50%;
+  margin: 20px;
+}
