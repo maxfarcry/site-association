@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+header, h1, h2 {
+  font-family: 'Yusei Magic', sans-serif;
+}
+
+.navbar-brand {
+  color: white!important;
+}
+
+.bg-light {
+  background-color: #130f40!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgb(207, 141, 55);
+}
+
+svg {
+  color: white!important;
+}
+
+h1 {  
+  background-color: #004d80;
+  color: white;
+}
+
+/* Le content prend toute la page lorsque l'on est sur un smartphone */
+@media screen and (max-width: 680px) {
+  .content {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 681px) and (max-width: 1279px) {}
