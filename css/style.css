@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 
-header, h1, h2 {
+header, h1, h2, h3 {
   font-family: 'Yusei Magic', sans-serif;
 }
 
@@ -28,13 +28,13 @@ header, h1, h2 {
   color: rgb(207, 141, 55);
 }
 
-svg {
-  color: white!important;
+h1 {  
+  background-color: rgb(58, 77, 141);
+  color: white;
 }
 
-h1 {  
-  background-color: #004d80;
-  color: white;
+.navbar-toggler {
+  color: white!important;
 }
 
 /* Modification de la page pour l'affichage sur mobile */
@@ -45,4 +45,8 @@ h1 {
   .col-6 {
     width: 100%;
   }
+  .col-4 {
+    width: 90%;
+  }
+
 }
