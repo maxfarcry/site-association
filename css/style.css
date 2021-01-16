@@ -4,6 +4,14 @@ header, h1, h2 {
   font-family: 'Yusei Magic', sans-serif;
 }
 
+.btn-dark {
+  background-color: #130f40;
+}
+
+.btn-dark:hover {
+  color: orange;
+  background-color: #130f40;
+}
 .navbar-brand {
   color: white!important;
 }
@@ -29,11 +37,12 @@ h1 {
   color: white;
 }
 
-/* Le content prend toute la page lorsque l'on est sur un smartphone */
+/* Modification de la page pour l'affichage sur mobile */
 @media screen and (max-width: 680px) {
-  .content {
-    width: auto;
+  .col-5 {
+    width: 100%;
+  }
+  .col-6 {
+    width: 100%;
   }
 }
-
-@media screen and (min-width: 681px) and (max-width: 1279px) {}
